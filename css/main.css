@@ -1,0 +1,367 @@
+:root {
+  scroll-behavior: auto;
+}
+._hr{
+  margin: 0px auto;
+  border: 1px solid white;
+}
+
+/* scroll */
+  .barcontainer {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: lightgray;
+  }
+  .progressbar {
+    background-color: white;
+    width: 0;
+    height: 5px;
+    position : fixed;
+    z-index: 2;
+  }
+/* scroll */
+
+/* navbar */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    border-bottom: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  .navbar-brand {
+    font-size: 30px;
+    transition: all 1s;
+    padding: 5px;
+  }
+  #insta-img {
+    transition: all 1s;
+    width:30px;
+  }
+  #nav_div {
+    height: 120px;
+  }
+/* navbar */
+
+/* AboutMe */
+  #AboutMe {
+    height: 450px; 
+    color: white;
+  }
+  .AboutMe_div {
+    height: 100%; 
+    width: 50%;
+    float: left;
+    color: white;
+    text-align: center;
+  }
+  #AboutMe_info {
+    float:left;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 70px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+  #AboutMe_info_span {
+    width: 15%;
+    text-align: center;
+    float:left;
+    font-weight: 400;
+  }
+  #AboutMe_info_a {
+    width: 50%;
+    float:left;
+    padding-left: 20px;
+    line-height: 55px;
+  }
+  #AboutMe_info_a > a, #AboutMe_info > a {
+    text-decoration: none;
+    color: white;
+  }
+  #AboutMe_info_a > a:hover {
+    color: black;
+  }
+  .category{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 80px 40px;
+    padding: 10px;
+    font-size: 15px;
+    width: 200px;
+  }
+  .aName {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+  }
+  #AboutMe_pic_info img {
+    border-radius: 100%;
+    float: right;
+    margin-right: 20px;
+    height: 400px;
+  }
+/* AboutMe */
+
+/* DevStack */
+  #DevStack {
+    height: 740px; 
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+  }
+  #DevStack_Myinfo {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #DevStack_container {
+    font-family: 'Jua', sans-serif;
+  }
+/* DevStack */
+
+/* Timeline */
+  #TimelineMap {
+    height: 800px; 
+    color: white;
+    font-family: 'Jua', sans-serif;
+  }
+  .timeline-text > span > h6 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+  }
+/* Timeline */
+
+/* Project */
+  #Project{ 
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  #Project_Container{
+    text-align: center;
+    width: 50%;
+  }
+  #Project_Container .card {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border: 1px solid black;
+    margin: 1%;
+  }
+  #Project_Container .card-title {
+    font-size: 24px;
+    font-family: 'Jua', sans-serif;
+  }
+  #Project_Container .card-text {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+  }
+  #Project_Container .card-img-top {
+    height:150px;
+  }
+  .info_Container {
+    margin-top: 20px;
+    font-family: 'Jua', sans-serif;
+    color: white;
+    text-align: center;
+  }
+  .card-body .btn {
+    font-family: 'Jua', sans-serif;
+  }
+/* Project */
+
+/* Like it - Drink*/
+  #Like_Drink {
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  #Like_Drink_container {
+    width: 60%;
+    text-align: center;
+    margin-bottom:40px;
+  }
+  .drink_slide > img { 
+    vertical-align:top; 
+  }
+  .drink_slide > a:focus {
+    outline:none;
+  }
+  #drink_gallery { 
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width:800px; 
+    height:450px; 
+    overflow: hidden;
+  }
+  .drink_slide { 
+    width:3220px; 
+    position:relative; 
+  }
+  .drink_slide > img { 
+    float:left; 
+  }
+/* Like it - Drink*/
+
+/* Like it - Rock*/
+  #Like_Rock {
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  #Like_Rock_container {
+    width: 60%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .flip { 
+    width: 300px;
+    height: 350px;
+    position: relative; 
+    perspective: 1100px;
+    margin: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .card-rock {
+    width: 100%; 
+    height: 100%; 
+    position: relative;
+    transition: .8s;
+    transform-style: preserve-3d;
+    
+  } 
+  .front, .back {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .front {
+    background: tomato; 
+  }
+  .back { 
+    background: black; 
+    transform: rotateY(180deg);
+  }
+  .flip:hover .card-rock {
+    transform: rotateY(180deg);
+  }
+/* Like it - Rock*/
+
+/* Instagram */
+  #Instagram { 
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  #insta_container {
+    width: 50%;
+    align-items: center;
+  }
+  
+  #insta_container .card {
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: middle;
+    position: relative;
+    margin: 10px;
+  }
+  #insta-card_container {
+    display: none;
+  }
+  .btn-cardOpen {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .card-text > p {
+    font-family: 'Jua', sans-serif;
+    font-size: 18px;
+  }
+/* Instagram */
+
+/* GuestBook */
+  #GuestBook {
+    display: flex;
+    justify-content: center;
+  }
+  #GuestBook_container {
+    margin-bottom: 50px;
+    padding:10px;
+    width:50%;
+  }
+  #guestbook-form-container {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+  }
+  #guestbook-form-container > #username {
+    width:30%;
+    float:left;
+  }
+  #guestbook-form-container > #guestbook-form-submit {
+    width:30%;
+    float:right;
+  }
+  #textLimit {
+    float:right;
+  }
+  #content {
+    color: black;
+  }
+  #div-guestbook {
+    color: white;
+  }
+  #tb-guestbook > tbody > tr > td {
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+  }
+  #tb-guestbook > tbody > tr > td:last-child {
+    text-align: center;
+  }
+  #tb-guestbook > tbody > tr > td:nth-child(3) {
+    text-align: right;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    color: white
+  }
+  th, td {
+    padding: 5px;
+    color: white
+  }
+/* GuestBook */
+
+/* footer */
+  #footer {
+    margin-top: 30px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+  }
+  #footer_container{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Jua', sans-serif;
+  }
+  #footer_container > span > a > img {
+    width:30px;
+  }
+/* footer */

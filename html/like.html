@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yongmini</title>
+
+<!-- axios -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!-- css -->
+<link href="../css/main.css" rel="stylesheet">
+<link href="../css/timeline.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- scroll -->
+  <div class="barcontainer bg-dark">
+    <div class="progressbar"></div>
+  </div>
+
+  <script src="../js/scroll.js"></script>
+<!-- scroll -->
+
+<!-- nav -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="gnb container-fluid bg-dark">
+      <span class="navbar-brand"></span>
+      <span class="navbar-brand"><a class="MoveNavBar" href="#">Like it👍</a></span>
+      <span class="navbar-brand"><a class="MoveNavBar" href="#">Instagram <img src="../img/logo/insta.png" id="insta-img"></a></span>
+      <span class="navbar-brand"><a class="MoveNavBar" href="#">GuestBook🙆‍♂️</a></span>
+      <span class="navbar-brand"><a href="../html/main.html">\^_^</a></span>
+      <span class="navbar-brand"></span>
+    </div>
+  </nav> 
+  <div class="bg-dark" id="nav_div"></div>
+
+  <script src="../js/nav.js"></script>
+<!-- nav -->
+
+
+<!-- Like it - Drink -->
+  <section class="box1">
+    <div class="bg-dark" id="Like_Drink">
+      <div id="Like_Drink_container">
+        <div><h2 class="info_Container">Alcohol</h2><br></div>
+          <div id="drink_gallery">
+            <div class="drink_slide">
+              <a href="https://www.jackdaniels.com/" target='_blank'>
+                <img src="../img/drink/jackdaniel.jpg">
+              </a>
+              <a href="https://www.bombaysapphire.com/" target='_blank'>
+                <img src="../img/drink/bombay.png">
+              </a>
+              <a href="https://www.makersmark.com/" target='_blank'>
+                <img src="../img/drink/makersmark.jpg">
+              </a>
+              <a href="https://www.jagermeister.com/en/" target='_blank'>
+                <img src="../img/drink/jeger.png">
+              </a>
+            <div>
+          <div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="../js/like_drink.js"></script>
+<!-- Like it - Drink -->
+
+  <hr class="_hr">
+
+<!-- Like it - Rock -->
+  <div class="bg-dark" id="Like_Rock">
+    <div id="Like_Rock_container">
+      <div><h2 class="info_Container">Rock</h2><br></div>
+      <div class="flip">  
+        <div class="card-rock">
+          <div class="front">
+            <a href="https://youtu.be/UJDK8X5K9mw" target='_blank'>
+              <img src="../img/rock/oasis.jpg">
+            </a>
+          </div>
+          <div class="back">
+            <a href="https://youtu.be/UJDK8X5K9mw" target='_blank'>
+              <img src="../img/rock/oasis_logo.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flip">  
+        <div class="card-rock">
+          <div class="front">
+            <a href="https://youtu.be/8DyziWtkfBw" target='_blank'>
+              <img src="../img/rock/rhcp.png">
+            </a>
+          </div>
+          <div class="back">
+            <a href="https://youtu.be/8DyziWtkfBw" target='_blank'>
+              <img src="../img/rock/rhcp_logo.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flip">  
+        <div class="card-rock">
+          <div class="front">
+            <a href="https://youtu.be/CSvFpBOe8eY" target='_blank'>
+              <img src="../img/rock/soad.png">
+            </a>
+          </div>
+          <div class="back">
+            <a href="https://youtu.be/CSvFpBOe8eY" target='_blank'>
+              <img src="../img/rock/soad_logo.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flip">  
+        <div class="card-rock">
+          <div class="front">
+            <a href="https://youtu.be/pkcJEvMcnEg" target='_blank'>
+              <img src="../img/rock/nirvana.jpg">
+            </a>
+          </div>
+          <div class="back">
+            <a href="https://youtu.be/pkcJEvMcnEg" target='_blank'>
+              <img src="../img/rock/nirvana_logo.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flip">  
+        <div class="card-rock">
+          <div class="front">
+            <a href="https://youtu.be/bpOSxM0rNPM" target='_blank'>
+              <img src="../img/rock/at.jpg">
+            </a>
+          </div>
+          <div class="back">
+            <a href="https://youtu.be/bpOSxM0rNPM" target='_blank'>
+              <img src="../img/rock/at_logo.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flip">  
+        <div class="card-rock">
+          <div class="front">
+            <a href="https://youtu.be/4PkcfQtibmU" target='_blank'>
+              <img src="../img/rock/ff.jpg">
+            </a>
+          </div>
+          <div class="back">
+            <a href="https://youtu.be/4PkcfQtibmU" target='_blank'>
+              <img src="../img/rock/ff_logo.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Like it - Rock -->
+
+  <hr class="_hr">
+
+<!-- Instagram -->
+  <section class="box2">
+    <div class="bg-dark" id="Instagram">
+      <div id="insta_container">
+        <div><h2 class="info_Container">Instagram</h2><br></div>
+        
+        <button type="button" class="btn btn-cardOpen btn-secondary">Click Me</button>
+
+          <div id="insta-card_container">
+            <div class="card bg-dark" style="width: 18rem;">
+              <div id="insta-img-0"></div>
+              <div class="card-body">
+                <p class="card-text" id="card-text-0"></p>
+              </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem;">
+              <div id="insta-img-1"></div>
+              <div class="card-body">
+                <p class="card-text" id="card-text-1"></p>
+              </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem;">
+              <div id="insta-img-2"></div>
+              <div class="card-body">
+                <p class="card-text" id="card-text-2"></p>
+              </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem;">
+              <div id="insta-img-3"></div>
+              <div class="card-body">
+                <p class="card-text" id="card-text-3"></p>
+              </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem;">
+              <div id="insta-img-4"></div>
+              <div class="card-body">
+                <p class="card-text" id="card-text-4"></p>
+              </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem;">
+              <div id="insta-img-5"></div>
+              <div class="card-body">
+                <p class="card-text" id="card-text-5"></p>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="../js/insta.js"></script>
+<!-- Instagram -->
+
+  <hr class="_hr">
+
+<!-- GuestBook -->
+  <section class="box3">
+    <div class="bg-dark" id="GuestBook">
+      <div id="GuestBook_container">
+        <div><h2 class="info_Container">GuestBook</h2><br></div>
+      
+        <form action="javascript:saveGuestbook();" name="guestbookFrm">
+          <div class="mb-3 guestbook-form bg-dark">
+            <div id="guestbook-form-container">
+              <input type="text" class="form-control" name="username" id="username" placeholder="Name" aria-describedby="username">
+              <button type="submit" class="btn btn-secondary" id="guestbook-form-submit">Submit</button>
+              <!-- <div id="textLimit" style="color: white"></div> -->
+            </div>
+          </div>
+          <div class="mb-3 guestbook-form bg-dark">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Comments" name="content" id="content" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+          </div>
+
+        </form>
+        <div id="div-guestbook">
+          <table id="tb-guestbook">
+            <tbody>
+              <tr>
+                <td>No</tb>
+                <td>Name</tb>
+                <td style="width:40%"></td>
+                <td>Date</tb>
+              </tr>
+              <tr>
+                <td colspan="3">Comments</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <script src="../js/guestBook.js"></script>
+<!-- GuestBook -->
+
+  <hr class="_hr">
+
+<!-- footer -->
+  <div id="footer">
+    <div id="footer_container">
+      <span>
+        <a href="https://github.com/ymiru0324/KH-HomePage" target='_blank'>
+          <img src="../img/logo/github.png" alt="HomePage Project"> HomePage Project
+        </a>
+      </span>
+
+    </div>
+  </div>
+<!-- footer -->
+</body>
+</html>
